@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+
+    <link
+      rel="shortcut icon"
+      href="/A super simple 2/favicon/youtube.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburguer-menu" src="/icon/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="/icon/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Serch" />
+        <button class="search-button">
+          <img class="search-icon" src="/icon/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="/icon/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="/icon/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-icon-container">
+          <img class="youtube-apps-icon" src="/icon/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <div class="notifications-icon-container">
+            <img
+              class="notification-icon"
+              src="/icon/notifications.svg"
+              alt=""
+            />
+            <div class="tooltip">Notifications</div>
+          </div>
+          <div class="notifications-count">9</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="/channel-pictures/my-channel.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="/icon/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icon/explore.svg" alt="" />
+        <div>Expore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icon/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icon/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icon/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icon/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <!-- video 1 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=UIL_agxzxoo&ab_channel=TryingtobeFamous"
+            >
+              <img
+                class="thumbnail"
+                src="/thunmbnail/thumbnail-1.webp"
+                alt=""
+              />
+            </a>
+            <div class="video-time">6:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TryingFamous/featured">
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-1.jpeg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-1.jpeg" alt="" />
+                <div>
+                  <p class="bold">Trying to be Famous</p>
+                  <p class="color-gray">316 subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=UIL_agxzxoo&ab_channel=TryingtobeFamous"
+              >
+                <p class="video-title">
+                  Trying to be Famous - Children Words (official video)
+                </p>
+              </a>
+              <p class="video-author">Trying to be Famous</p>
+              <p class="video-stats">5532 views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 2 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=jcZUPDMXzJ8&ab_channel=DumboLover"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-2.webp" alt="" />
+            </a>
+            <div class="video-time">4:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Dumbofan1">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-2.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-2.jpg" alt="" />
+                <div>
+                  <p class="bold">Dumbo Lover</p>
+                  <p class="color-gray">32.5k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=jcZUPDMXzJ8&ab_channel=DumboLover"
+              >
+                <p class="video-title">Dumbo Pink Elephants on Parade</p>
+              </a>
+              <p class="video-author">Dumbo Lover</p>
+              <p class="video-stats">6.1M views &#183; 11 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 3 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/uD4izuDMUQA">
+              <img class="thumbnail" src="thunmbnail/thumbnail-3.webp" alt="" />
+            </a>
+            <div class="video-time">29:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@melodysheep">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-3.jpeg" alt="" />
+                <div>
+                  <p class="bold">melodysheep</p>
+                  <p class="color-gray">2.43M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://youtu.be/uD4izuDMUQA">
+                <p class="video-title">
+                  TIMELAPSE OF THE FUTURE: A journey to the End of Time(4k)
+                </p>
+              </a>
+              <p class="video-author">melodysheep</p>
+              <p class="video-stats">88M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 4 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=HVkVq_qs7FM&ab_channel=KEXP"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-4.webp" alt="" />
+            </a>
+            <div class="video-time">25:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@kexp">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-4.jpeg" alt="" />
+                <div>
+                  <p class="bold">KEXP</p>
+                  <p class="color-gray">2.9M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=HVkVq_qs7FM&ab_channel=KEXP"
+              >
+                <p class="video-title">
+                  Moderat - Full Performance (Live on KEXP)
+                </p>
+              </a>
+              <p class="video-author">KEXP</p>
+              <p class="video-stats">1.1M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 5 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=Qz3u06eXf0E&ab_channel=BreakingBad%26BetterCallSaul"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-5.webp" alt="" />
+            </a>
+            <div class="video-time">1:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@breakingbad">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-5.jpeg" alt="" />
+                <div>
+                  <p class="bold">Breaking Bad & Better Call Saul</p>
+                  <p class="color-gray">594k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=Qz3u06eXf0E&ab_channel=BreakingBad%26BetterCallSaul"
+              >
+                <p class="video-title">
+                  Official Season 6 Trailer | Better Call Saul
+                </p>
+              </a>
+              <p class="video-author">Breaking Bad & Better Call Saul</p>
+              <p class="video-stats">5 M views &#183; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 6 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=MtivjGL0luc&ab_channel=ikmultimedia"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-6.webp" alt="" />
+            </a>
+            <div class="video-time">1:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@JakobHaq">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-6.jpeg" alt="" />
+                <div>
+                  <p class="bold">Jakob Haq</p>
+                  <p class="color-gray">42.4k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=MtivjGL0luc&ab_channel=ikmultimedia"
+              >
+                <p class="video-title">UNO Synth Pro by Jakob Haq</p>
+              </a>
+              <p class="video-author">Jakob Haq</p>
+              <p class="video-stats">1019 views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 7 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-7.webp" alt="" />
+            </a>
+            <div class="video-time background-red">Live</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@LofiGirl">
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-7.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-7.jpg" alt="" />
+                <div>
+                  <p class="bold">@LofiGirl</p>
+                  <p class="color-gray">11.9M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
+              >
+                <p class="video-title">
+                  lofi hip hop radio - beats to relax/study to
+                </p>
+              </a>
+              <p class="video-author">Lofi Girl</p>
+              <p class="video-stats">1.1M views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 8 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=ydYDqZQpim8&ab_channel=NamibiaCam"
+            >
+              <img class="thumbnail" src="thunmbnail/thumbnail-8.webp" alt="" />
+            </a>
+            <div class="video-time background-red">Live</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NamibiaCam">
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-8.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-8.jpg" alt="" />
+                <div>
+                  <p class="bold">NamibiaCam</p>
+                  <p class="color-gray">262k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=ydYDqZQpim8&ab_channel=NamibiaCam"
+              >
+                <p class="video-title">
+                  Namibia: Live stream in the Namib Desert
+                </p>
+              </a>
+              <p class="video-author">NamibiaCam</p>
+              <p class="video-stats">382k views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 9 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=l6g1T1R8x1U&ab_channel=DamienRice"
+            >
+              <img class="thumbnail" src="/thunmbnail/thumbnail-9.jpg" alt="" />
+            </a>
+            <div class="video-time">5:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCT6qPO7KIAdo5jgkXRJ1bag"
+              >
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-9.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-9.jpg" alt="" />
+                <div>
+                  <p class="bold">Damien Rice</p>
+                  <p class="color-gray">425k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=l6g1T1R8x1U&ab_channel=DamienRice"
+              >
+                <p class="video-title">
+                  Damien Rice - Older Chests (filmed at home)
+                </p>
+              </a>
+              <p class="video-author">Damien Rice</p>
+              <p class="video-stats">1.4 views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 10  -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=AIIovpUQiro&ab_channel=MassiveAttackVEVO"
+            >
+              <img
+                class="thumbnail"
+                src="/thunmbnail/thumbnail-10.webp"
+                alt=""
+              />
+            </a>
+            <div class="video-time">6:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/channel/UCLqMjQtlnOkknN-FvrtQ0WQ"
+              >
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-10.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-10.jpg" alt="" />
+                <div>
+                  <p class="bold">massiveattack</p>
+                  <p class="color-gray">514k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=AIIovpUQiro&ab_channel=MassiveAttackVEVO"
+              >
+                <p class="video-title">Massive Attack - Live With Me</p>
+              </a>
+              <p class="video-author">massiveattack</p>
+              <p class="video-stats">18M views &#183; 12 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 11 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=LbMj3I6o8ec&ab_channel=WeyderU"
+            >
+              <img
+                class="thumbnail"
+                src="/thunmbnail/thumbnail-11.webp"
+                alt=""
+              />
+            </a>
+            <div class="video-time">1:58:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@weyder">
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-11.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-11.jpg" alt="" />
+                <div>
+                  <p class="bold">Weyder</p>
+                  <p class="color-gray">584k subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=LbMj3I6o8ec&ab_channel=Weyder"
+              >
+                <p class="video-title">
+                  HOME - La Tierra - Documental Completo HD
+                </p>
+              </a>
+              <p class="video-author">Weyder</p>
+              <p class="video-stats">24M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video 12 -->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=V_XnbTayTH4&ab_channel=NintendoofAmerica"
+            >
+              <img
+                class="thumbnail"
+                src="/thunmbnail/thumbnail-12.webp"
+                alt=""
+              />
+            </a>
+            <div class="video-time">1:33:39</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NintendoAmerica">
+                <img
+                  class="profile-picture"
+                  src="/channel-pictures/channel-12.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="profile-tooltip">
+                <img src="/channel-pictures/channel-12.jpg" alt="" />
+                <div>
+                  <p class="bold">Nintendo of America</p>
+                  <p class="color-gray">8.81M subscribers</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=V_XnbTayTH4&ab_channel=NintendoofAmerica"
+              >
+                <p class="video-title">
+                  Mestroid Dread - Trailer 2 - Nintendo Switch
+                </p>
+              </a>
+              <p class="video-author">Nintendo of America</p>
+              <p class="video-stats">1.7M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

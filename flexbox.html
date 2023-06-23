@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox</title>
+</head>
+<body>
+  <div style="
+  display: flex;
+  flex-direction: row;
+  ">
+    <div style="background-color: rgb(90, 218, 218);">div 1</div>
+    <div style="background-color: rgb(212, 67, 67);">div 2 <p>text</p></div>
+  </div>
+
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+      <div style="background-color: rgb(90, 218, 218);
+      width: 100px;">100px</div>
+      <div style="background-color: rgb(212, 67, 67);
+      flex: 1;
+      ">flex 1</div>
+    </div>
+
+      <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      ">
+        <div style="background-color: rgb(90, 218, 218);
+        width: 100px;">100px</div>
+        <div style="background-color: rgb(212, 67, 67);
+        flex: 1;
+        ">flex 1</div>
+        <div style="background-color: rgb(90, 218, 218);
+        flex: 2;">flex 2</div>
+      </div>
+
+
+      <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        ">
+        <!-- justify-conten tiene opcion de start, center y end -->
+          <div style="background-color: rgb(53, 160, 209);
+          width: 100px;
+          ">flex 1</div>
+          <div style="background-color: rgb(158, 52, 45);
+          width: 100px;">100px</div> 
+          <div style="background-color: rgb(90, 218, 218);
+          width: 100px;">flex 2</div>
+        </div>
+
+
+      <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        ">
+        <!-- justify-conten tiene opcion de start, center y end -->
+          <div style="background-color: rgb(53, 160, 209);
+          width: 100px;
+          ">flex 1</div>
+          <div style="background-color: rgb(158, 52, 45);
+          width: 100px;">100px</div> 
+          <div style="background-color: rgb(90, 218, 218);
+          width: 100px;">flex 2</div>
+        </div>
+
+
+        
+      <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        ">
+        <!-- justify-conten tiene opcion de start, center y end -->
+        <!-- el justify-conten es como en columnas y el align-items en rows -->
+          <div style="background-color: rgb(53, 160, 209);
+          width: 100px;
+          ">flex 1</div>
+          <div style="background-color: rgb(158, 52, 45);
+          width: 100px;">100px</div> 
+          <div style="background-color: rgb(90, 218, 218);
+          width: 100px;">flex 2</div>
+        </div>
+
+
+
+
+</body>
+</html>
